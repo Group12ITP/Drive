@@ -1,0 +1,51 @@
+.appointments-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.appointments-header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.appointments-table {
+  margin-top: 20px;
+}
+
+.status-pending {
+  color: #ffa726;
+}
+
+.status-confirmed {
+  color: #66bb6a;
+}
+
+.status-cancelled {
+  color: #ef5350;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.form-dialog {
+  min-width: 400px;
+}
+
+.form-field {
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .appointments-container {
+    padding: 10px;
+  }
+  
+  .form-dialog {
+    min-width: 90%;
+    margin: 10px;
+  }
+} 
